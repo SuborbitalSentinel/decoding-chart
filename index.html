@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .flex-row {
+        display: flex;
+        flex-wrap: nowrap;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        margin-bottom: 10px;
+    }
+    .flex-row > div {
+        width: 425px;
+        text-align: center;
+        line-height: 85px;
+        font-size: 45px;
+        font-family: 'URW Gothic';
+        color: black;
+    }
+    .footer {
+        text-align: center;
+        font-size: 25px;
+    }
+</style>
+</head>
+<body>
+    <h1>READING WARM-UP!</h1>
+    <div class="flex-container">
+        <div class="flex-row">
+            {{ROW_1}}
+        </div>
+        <div class="flex-row">
+            {{ROW_2}}
+        </div>
+        <div class="flex-row">
+            {{ROW_3}}
+        </div>
+        <div class="flex-row">
+            {{ROW_4}}
+        </div>
+        <div class="flex-row">
+            {{ROW_5}}
+        </div>
+    </div>
+    <div class="footer">
+        Please review these sounds with your child. We will test on Friday.
+    </div>
+</body>
+</html>
